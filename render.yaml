@@ -6,6 +6,8 @@ services:
     buildCommand: npm run build
     startCommand: npm start
     envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
       - key: SUPABASE_URL
         sync: false
       - key: SUPABASE_ANON_KEY
